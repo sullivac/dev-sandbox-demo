@@ -5,14 +5,23 @@
     },
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
-            "configureZshAsDefaultShell": true
+            "configureZshAsDefaultShell": true,
+            "installOhMyZshConfig": false
         },
-        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+            "moby": false
+        },
         "ghcr.io/devcontainers/features/dotnet:2": {
-            "additionalVersions": "lts"
+            "version": "8.0.100"
         },
-        "ghcr.io/devcontainers/features/node:1": {}
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "20.10.0"
+        }
     },
+    "mounts": [
+        "type=volume,source=dev-sandbox-v2-profile,target=/home/vscode",
+        "type=volume,target=/home/vscode/.vscode-server"
+    ],
     "workspaceFolder": "/src",
     "workspaceMount": "type=volume,source=dev-sandbox-v2-src,destination=/src"
 }
