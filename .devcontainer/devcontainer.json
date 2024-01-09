@@ -24,5 +24,15 @@
         "type=volume,target=/home/vscode/.vscode-server"
     ],
     "workspaceFolder": "/src",
-    "workspaceMount": "type=volume,source=dev-sandbox-v2-src,destination=/src"
+    "workspaceMount": "type=volume,source=dev-sandbox-v2-src,destination=/src",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "humao.rest-client",
+                "ms-dotnettools.csdevkit",
+                "stkb.rewrap"
+            ]
+        }
+    }
 }
