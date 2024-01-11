@@ -29,6 +29,8 @@
         "vscode": {
             "extensions": [
                 "eamodio.gitlens",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
                 "humao.rest-client",
                 "ms-dotnettools.csdevkit",
                 "stkb.rewrap"
