@@ -3,7 +3,10 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "runArgs": ["--network", "vscode"],
+    "runArgs": [
+        "--network",
+        "vscode"
+    ],
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "configureZshAsDefaultShell": true,
@@ -28,13 +31,20 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "eamodio.gitlens",
+                "DotJoshJohnson.xml",
                 "GitHub.copilot",
                 "GitHub.copilot-chat",
+                "adamhartford.vscode-base64",
+                "eamodio.gitlens",
                 "humao.rest-client",
+                "mitchdenny.ecdc",
+                "ms-azuretools.vscode-docker",
                 "ms-dotnettools.csdevkit",
+                "ms-vsliveshare.vsliveshare",
+                "redhat.vscode-yaml",
                 "ryu1kn.partial-diff",
-                "stkb.rewrap"
+                "stkb.rewrap",
+                "vscode-icons-team.vscode-icons",
             ]
         }
     }
