@@ -33,6 +33,7 @@
                 "GitHub.copilot-chat",
                 "humao.rest-client",
                 "ms-dotnettools.csdevkit",
+                "ryu1kn.partial-diff",
                 "stkb.rewrap"
             ]
         }
