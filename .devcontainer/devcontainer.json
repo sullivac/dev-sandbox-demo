@@ -36,6 +36,7 @@
                 "GitHub.copilot-chat",
                 "adamhartford.vscode-base64",
                 "eamodio.gitlens",
+                "formulahendry.dotnet-test-explorer",
                 "humao.rest-client",
                 "mitchdenny.ecdc",
                 "ms-azuretools.vscode-docker",
@@ -44,7 +45,7 @@
                 "redhat.vscode-yaml",
                 "ryu1kn.partial-diff",
                 "stkb.rewrap",
-                "vscode-icons-team.vscode-icons",
+                "vscode-icons-team.vscode-icons"
             ]
         }
     }
