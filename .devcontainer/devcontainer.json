@@ -36,14 +36,16 @@
                 "GitHub.copilot-chat",
                 "adamhartford.vscode-base64",
                 "eamodio.gitlens",
-                "formulahendry.dotnet-test-explorer",
                 "humao.rest-client",
                 "mitchdenny.ecdc",
                 "ms-azuretools.vscode-docker",
                 "ms-dotnettools.csdevkit",
                 "ms-vsliveshare.vsliveshare",
+                "numso.prettier-standard-vscode",
                 "redhat.vscode-yaml",
                 "ryu1kn.partial-diff",
+                "spmeesseman.vscode-taskexplorer",
+                "standard.vscode-standard",
                 "stkb.rewrap",
                 "vscode-icons-team.vscode-icons"
             ]
